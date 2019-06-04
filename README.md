@@ -1,7 +1,5 @@
 ## Quorum-Hub-Everything About Quorum Blockchain.
-Have a look at this article before going further..
-https://github.com/Salmandabbakuti/Quorum-Hub/blob/master/A%20Beginner%20guide%20to%20Quorum%20Blockchain%20%E2%80%93%20Addicted%20To%20IT%20%E2%80%93%20Medium.pdf
-
+Have a look at this article before going further.. A Beginner guide to Quorum Blockchain at https://link.medium.com/8FCxEYhk8W
 1. Forked Enterprise Ethereum blockchain.
 
 2. Specifically Designed for private Transactions between nodes. 
