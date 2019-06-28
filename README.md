@@ -19,3 +19,33 @@ in previous article, we checked how private transactions work on quorum network 
 ### So , What is quorum-maker?
 A Framework For creating, joining ,attaching nodes.
 Also, for creating testnetwork with integrated Web UI.
+
+#### Getting Started With Quorum-maker
+
+```
+git clone https://github.com/synechron-finlabs/quorum-maker.git
+cd quorum-maker
+```
+Start quorum-maker framework with this command and choose your prefered option
+
+```
+./setup.sh
+
+//Choose option 4 for Development network
+```
+Type your node name and number of nodes to be joined and port numbers. it will create new directory with your node name. run docker in node directory to start nodes.
+
+```
+cd <nodename>
+
+docker-compose up -d
+
+```
+Go to geth javascript console of particular node i.e. node1 with below command
+
+```
+docker exec -it node1 geth attach /node1/node/qdata/geth.ipc
+```
+***Follow same steps as we did for quorum-examples for deploying , interactiong, sending transactions***
+
+### Quoroum Nodes on Cloud
