@@ -22,6 +22,8 @@ Also, for creating testnetwork with integrated Web UI.
 
 #### Getting Started With Quorum-maker
 
+##### Setting Up Development Network
+
 ```
 git clone https://github.com/synechron-finlabs/quorum-maker.git
 cd quorum-maker
@@ -50,4 +52,18 @@ docker exec -it node1 geth attach /node1/node/qdata/geth.ipc
 ```
 ***Follow same steps as we did in "Getting Started with 7nodes"  for deploying , interactiong, sending transactions***
 
-### Quoroum Nodes on Cloud
+##### Creating Nodes and Joining Nodes
+
+```
+cd quorum-maker
+
+./setup.sh 
+
+//choose option 2 to create node
+```
+Enter Required details like Ip address, node name and ports to interact.
+
+
+
+
+### Quorum Nodes on Cloud
