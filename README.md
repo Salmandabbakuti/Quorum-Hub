@@ -52,16 +52,16 @@ docker exec -it node1 geth attach /node1/node/qdata/geth.ipc
 ```
 ***Follow same steps as we did in "Getting Started with 7nodes"  for deploying , interactiong, sending transactions***
 
-##### Creating Nodes and Joining Nodes
+##### Creating Network and Joining Network
 
 ```
 cd quorum-maker
 
 ./setup.sh 
 
-//choose option 2 to create node
+//choose option 1 to create node
 ```
-Enter Required details like Ip address, node name and port numbers. it will create node with Details given by you. alternatively, you can interact with node via web UI with IP address of node and port you given to node manager. if your node Ip is 10.5.52.1 and node manager port is 22004 then you can access UI by http://10.5.52.1:22004. web UI is useful for accepting node joining requests, deploying and interacting with contracts, viewing transaction details. etc.
+Enter Required details like Ip address, node name and port numbers. it will create node with Details given by you. you can interact with node via web UI with IP address of node and port you given to node manager. if your node Ip is 10.5.52.1 and node manager port is 22004 then you can access UI by http://10.5.52.1:22004. web UI is useful for accepting node joining requests, deploying and interacting with contracts, viewing transaction details. etc.
 
 #### Joining Node 
 
@@ -70,7 +70,7 @@ cd quorum-maker
 
 ./setup.sh 
 
-//choose option 3 to join node
+//choose option 2 to join node
 ```
 Enter Ip address of existing node and port numbers of existing node(already created node) and Add node name and port numbers of new node that you wanted to join.  it will send a joining request to exisisting node. once accepted by node manager, you will be part of the network. 
 
