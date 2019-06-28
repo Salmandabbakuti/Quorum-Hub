@@ -40,12 +40,14 @@ cd <nodename>
 
 docker-compose up -d
 
+docker ps    //wait until nodes become healthy
+
 ```
 Go to geth javascript console of particular node i.e. node1 with below command
 
 ```
 docker exec -it node1 geth attach /node1/node/qdata/geth.ipc
 ```
-***Follow same steps as we did for quorum-examples for deploying , interactiong, sending transactions***
+***Follow same steps as we did in "Getting Started with 7nodes"  for deploying , interactiong, sending transactions***
 
 ### Quoroum Nodes on Cloud
